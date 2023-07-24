@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alice', regular;
+    background-color: #ffff;
+}
+header {
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.inline-block {
+    display: inline-block;
+    align-items: center;
+}
+.inline-block a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+ul.topmenu {
+    float: right;
+    
+}
+.logo {
+    font-size: 24px;
+    width: 23%;
+    padding: 1%;
+
+}
+.logo img {
+text-align: center;
+}
+.heroImg {
+    background-image: url("images\hero image.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroImg .content {
+    text-align: center;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #7B8C3E;
+    width: 100%;
+    bottom: 0px;
+    position: sticky;
+    position: absolute;
+    
+}
+footer ul {
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding: 10px;
+}
+footer li {
+    padding: 0 10px;
+}
+.navigation {
+    background-color: #7B8C3E;
+    height:150px;
+    width: 100%;
+}
+.navigation ul {
+    background-color: #7B8C3E;
+    
+}
