@@ -21,7 +21,7 @@ header {
     align-items: center;
 
 }
-ul.topmenu {
+.ul.topmenu {
     float: right;
     
 }
@@ -53,19 +53,13 @@ text-align: center;
 }
 footer {
     background-color: #7B8C3E;
-    width: 100%;
+    display:inline-block;
+    width: 60%;
     bottom: 0px;
     position: sticky;
     position: absolute;
-    
-}
-footer ul {
-    display: inline-block;
-    vertical-align: text-bottom;
     padding: 10px;
-}
-footer li {
-    padding: 0 10px;
+    margin-left: auto
 }
 .navigation {
     background-color: #7B8C3E;
