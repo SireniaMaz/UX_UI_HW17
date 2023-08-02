@@ -1,72 +1,112 @@
-body {
+.body {
     margin: 0;
     padding: 0;
     font-family: 'Alice', regular;
     background-color: #ffff;
 }
-header {
+.header {
     height: 80px;
     align-items: center;
     justify-content: space-between;
 }
-.inline-block {
+.navigation {
+    background-color: #7B8C3E;
+    height: 80px;
+    padding-top: 3.2%;
+}
+.inline-block ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.inline-block li {
     display: inline-block;
-    align-items: center;
 }
 .inline-block a {
     color: #ffff;
     text-decoration: none;
-    padding: 10px 20px;
-    justify-content: flex-end;
-    align-items: center;
-
+    width: 80px;
+    display: block;
+    padding: 28px;
+    font-family: alice;
+    text-align: center;
+    font-size: 18px;
 }
-.ul.topmenu {
-    float: right;
-    
+.inline-block a:hover{
+    background: #464f4f;
 }
 .logo {
-    font-size: 24px;
     width: 23%;
     padding: 1%;
+    margin-left: -17px;
+    margin-top: -120.8px;
+    position: relative;
+    left: 10px;
+    top: -4px;
+}
+h2 {
+    position: relative;
+    top: -70px;
+    right: -160px;
+    text-align: left;
+    font-family: alice;
+    color:#ffff;
+}
+.Box {
+    border: 2px solid black;
+    margin: auto;
+    width: 450px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 20px;
+    right: 4px;
 
 }
-.logo img {
-text-align: center;
-}
 .heroImg {
-    background-image: url("images\hero image.png");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    padding: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.heroImg .content {
-    text-align: center;
+    background-image: "images\hero image.png";
+    width: 180px;
+    margin: auto;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
+    width: 315px;
+    margin-left: -55px;
+    font-size: 15px;
+    text-align: left;
 }
-footer {
+h1{
+    font-size: 17px;
+    text-align: start;
+    margin-left: 40px;
+}
+.Button {
+    margin: 12px;
+}
+button {
+    color:#ffff;
+    background-color: #1E82D9;
+    border-color: #1E82D9;
+    font-size: 14px;
+}
+.footer {
     background-color: #7B8C3E;
     display:inline-block;
-    width: 60%;
+    width: 2000px;
     bottom: 0px;
-    position: sticky;
     position: absolute;
-    padding: 10px;
-    margin-left: auto
 }
-.navigation {
-    background-color: #7B8C3E;
-    height:150px;
-    width: 100%;
+.footer ul {
+    list-style: none;
+    text-align: left;
+    margin:40px;
+    padding:10px;
+    text-decoration: none;
+    font-family: alice;
+    font-size: 18px;
+    display: block;
+    color: #ffff;
 }
-.navigation ul {
-    background-color: #7B8C3E;
-    
+.footer li{
+    display: inline-block;
+    width: 80px;
 }
