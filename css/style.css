@@ -13,11 +13,12 @@
     background-color: #7B8C3E;
     height: 80px;
     padding-top: 3.2%;
+    
 }
 .inline-block ul{
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: -90px;
     text-align: right;
 }
 .inline-block li {
