@@ -13,13 +13,14 @@
     background-color: #7B8C3E;
     height: 80px;
     padding-top: 3.2%;
+    width: 2100px;
     
 }
 .inline-block ul{
     list-style: none;
-    margin: 0;
-    padding: -90px;
-    text-align: right;
+    margin: 0px;
+    position: relative;
+    left: 1300px;
 }
 .inline-block li {
     display: inline-block;
@@ -31,7 +32,7 @@
     display: block;
     padding: 28px;
     font-family: alice;
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
 }
 .inline-block a:hover{
@@ -44,7 +45,7 @@
     margin-top: -120.8px;
     position: relative;
     left: 10px;
-    top: -4px;
+    top: -8px;
 }
 h2 {
     position: relative;
@@ -92,7 +93,7 @@ button {
 .footer {
     background-color: #7B8C3E;
     display:inline-block;
-    width: 2000px;
+    width: 2100px;
     bottom: 0px;
     position: absolute;
 }
